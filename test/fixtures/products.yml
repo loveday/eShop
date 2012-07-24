@@ -11,3 +11,11 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+
+ruby:
+    title:       Forever Lite Ultra with Aminotein – Vanilla
+    description:
+      Forever Lite Ultra® with Aminotein is the perfect addition to your healthy Forever Living lifestyle. Forever Lite. Ultra with Aminotein integrates new thinking with new technologies to help you maintain a healthy diet and lifestyle.
+    price:       30.40
+    image_url:   flvanilla.png
