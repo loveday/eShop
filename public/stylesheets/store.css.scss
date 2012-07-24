@@ -6,13 +6,13 @@
   h1 {
     margin: 0;
     padding-bottom: 0.5em;
-    font: 150% sans-serif;
+    font:  150% sans-serif;
     color: #226;
     border-bottom: 3px dotted #77d;
   }
 
-/* An entry in the Store catalog */
-  .entry{
+/* An entry in the store catalog */
+  .entry {
     overflow: auto;
     margin-top: 1em;
     border-bottom: 1px dotted #77d;
@@ -25,7 +25,7 @@
       position: absolute;
     }
 
-    h3{
+    h3 {
       font-size: 120%;
       font-family: sans-serif;
       margin-left: 100px;
@@ -38,10 +38,6 @@
       margin-left: 100px;
       margin-top: 0.5em;
       margin-bottom: 0.8em;
-
-      form, div{
-        display: inline;
-      }
     }
 
     .price {

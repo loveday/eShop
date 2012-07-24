@@ -7,4 +7,6 @@ class Product < ActiveRecord::Base
       message: 'must be a URL for GIF, JPG or PNG image.'
   }
   attr_accessible :description, :image_url, :price, :title
+
+  validates :title, length: {minimum: 10}
 end
