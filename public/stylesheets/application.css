@@ -48,7 +48,7 @@
         float: left;
         padding: 1em 2em;
         width: 13em;
-        background: grey; /*Change the background colour of the Side */
+        background: #141; /*Change the background colour of the Side */
 
         form, div {
            display: inline;
