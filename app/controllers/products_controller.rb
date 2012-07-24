@@ -15,13 +15,12 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.xml
   # GET /products/1.json
-  def show
+  def who_bought
     @product = Product.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render :xml => @product }
-      format.json { render json: @product }
+      format.xml { render xml: @product.to_xml(include: :orders) }
+      format.atom
     end
   end
 
